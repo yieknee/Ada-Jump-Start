@@ -37,7 +37,7 @@ candy = gets.chomp.downcase
 =end
  
 if candy == "a"
-	money -= 1
+  money -= 1
   if money >= 0
     puts "Thank you for your purchase! Please take your candy. Your change is $#{'%.2f' % money}."
   else
