@@ -20,7 +20,7 @@ candy_choices = {"A: $1.00 Twix" => '%.2f' % 1.00,
 	"E: Milkyway" => '%.2f' % 1.15
   }
 
-candy_choices.each do |selection, price| puts "#{selection} $#{price} \n"
+candy_choices.each do |selection, price| puts "#{selection} $#{price}"
 end
 
 # Ask for candy choice
